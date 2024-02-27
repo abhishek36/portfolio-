@@ -94,7 +94,7 @@ const Hero = () => {
 
       <div className="  flex absolute w-full bottom-5 mx-auto  items-start justify-center">
         <a href="#about">
-          <div className="border-4 border-secondary flex justify-center items-center h-[64px] w-[35px] rounded-3xl">
+          <div className="border-4 mb-[50px] border-secondary flex justify-center items-center h-[64px] w-[35px] rounded-3xl">
             <motion.dev
               animate={{ y: [0, 24, 0] }}
               transition={{
