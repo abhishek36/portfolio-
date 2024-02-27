@@ -113,12 +113,12 @@ const Works = () => {
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-4
-        text-secondary text-[17px] leading-[30px] max-w-3xl "
+        text-secondary text-[17px] leading-[30px] max-w-3xl  "
         >
           Each project is a unique piece of development 🧩
         </motion.p>
       </div>
-      <div className="mt-8 flex flex-wrap gap-7 h-full">
+      <div className="md:mt-8 flex flex-wrap gap-7 h-full">
         {projects.map((project, index) => {
           return <ProjectCard key={index} index={index} {...project} />;
         })}
