@@ -34,6 +34,7 @@ import {
   quote,
   movie,
   cryptoimage,
+  youtube,
 } from "../assets";
 
 export const navLinks = [
@@ -361,6 +362,31 @@ const projects = [
     source_code_link: {
       github: "https://github.com/abhishek36/crypto",
       link: "https://crypto011.netlify.app/",
+    },
+  },
+  {
+    name: "Youtube with React",
+    description:
+      "Building a YouTube clone with ReactJS allows for a dynamic, user-friendly video sharing platform. ",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "React-Router-Dom",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Axios",
+        color: "pink-text-gradient",
+      },
+    ],
+
+    image: youtube,
+    source_code_link: {
+      github: "https://github.com/abhishek36/youtube",
+      link: "https://reactwithyoutube.netlify.app/",
     },
   },
   {

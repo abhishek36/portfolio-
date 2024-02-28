@@ -43,6 +43,7 @@ import wedding from "./subh2.jpg";
 import quote from "./quote.jpg";
 import movie from "./movie.jpg";
 import cryptoimage from "./crypto.jpg";
+import youtube from "./youtube.jpg";
 export {
   emailsocial,
   githubsocial,
@@ -88,4 +89,5 @@ export {
   quote,
   movie,
   cryptoimage,
+  youtube,
 };
