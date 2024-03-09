@@ -44,6 +44,7 @@ import quote from "./quote.jpg";
 import movie from "./movie.jpg";
 import cryptoimage from "./crypto.jpg";
 import youtube from "./youtube.jpg";
+import nifty from "./nifty.jpg";
 export {
   emailsocial,
   githubsocial,
@@ -90,4 +91,5 @@ export {
   movie,
   cryptoimage,
   youtube,
+  nifty,
 };

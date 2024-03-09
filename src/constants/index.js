@@ -35,6 +35,7 @@ import {
   movie,
   cryptoimage,
   youtube,
+  nifty,
 } from "../assets";
 
 export const navLinks = [
@@ -179,9 +180,9 @@ const experiences = [
 
 const projects = [
   {
-    name: "OnePlus Clone",
+    name: "Nifty",
     description:
-      "A One plus Clone with fully responsive website in these website i use HTML and styling for css and giving a amazing AOS animations on webiste",
+      "created a nifty website using HTML, CSS, and BOOTSTARP in these website i using AOS animation for beautifull animation and some gradient colors",
     tags: [
       {
         name: "HTML",
@@ -195,12 +196,16 @@ const projects = [
         name: "AOS",
         color: "pink-text-gradient",
       },
+      {
+        name: "BOOTSTRAP",
+        color: "pink-text-gradient",
+      },
     ],
 
-    image: OnePlus,
+    image: nifty,
     source_code_link: {
-      github: "https://github.com/abhishek36/oneplus",
-      link: "https://abhishek36.github.io/oneplus/",
+      github: "https://github.com/abhishek36/nifty",
+      link: "https://abhishek36.github.io/nifty/",
     },
   },
   {
