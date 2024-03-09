@@ -49,7 +49,7 @@ const Hero = () => {
             >
               <span> Front-end / </span>
               <span>JavaScript /</span>
-              <span> React /</span>
+              <span> ReactJS /</span>
               <span> Redux Toolkit /</span>
               <span> Tailwind CSS / </span>
               <span> Material UI </span>
@@ -60,7 +60,7 @@ const Hero = () => {
               animate="show"
               className={`${styles.heroSubText} mt-4`}
             >
-              A passionate Front-end Developer based in{" "}
+              A passionate Front-end Web Developer based in
               <br className="sm:block hidden" /> Indore, Madhya Pradesh.
             </motion.p>
             <motion.div

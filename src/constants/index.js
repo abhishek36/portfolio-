@@ -427,8 +427,8 @@ const projects = [
 
     image: WhatsAppClone,
     source_code_link: {
-      github: "https://github.com/kartikgothwal/WhatsApp-Clone",
-      link: "https://whatsapp-clone-97e3c.firebaseapp.com/",
+      github: "https://github.com/abhishek36/E-commerce",
+      link: "https://summerjuice.netlify.app/",
     },
   },
 ];
