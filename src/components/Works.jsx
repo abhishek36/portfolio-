@@ -24,11 +24,11 @@ const ProjectCard = ({
         }}
         className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
       >
-        <div className="relative h-[230px] w-full ">
+        <div className="relative sm:h-[230px] w-full ">
           <img
             src={image}
             alt={image}
-            className="w-full h-full rounded-2xl object-cover  "
+            className="w-full h-full rounded-2xl sm:object-cover object-contain  "
           />
           <div className="absolute inset-0 flex gap-2 justify-end m-3 card-img_hover">
             <div
