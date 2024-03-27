@@ -31,17 +31,17 @@ const Navbar = () => {
             setActive("");
             window.scrollTo(0, 0);
           }}
-          className="flex items-center justify-center gap-4"
+          className="flex items-center justify-center gap-1"
         >
-          <div className="w-14 h-14 p-2 rounded-full bg-[#915EFF] flex justify-center items-center">
+          <div className="w-14 h-14  flex justify-center items-center">
             <img
               src={logo}
               alt="logo"
               className=" object-cover w-full h-full"
             />
           </div>
-          <p className="hover:text-secondary transition-colors duration-150 ease-in text-white cursor-pointer font-bold text-[18px]">
-            Abhishek Sharma
+          <p className="hover:text-secondary transition-colors duration-150 ease-in text-white uppercase cursor-pointer font-bold text-[34px] font-mono italic">
+            bhishek
           </p>
         </Link>
         <ul className="list-none text-white hidden sm:flex flex-row gap-10">
